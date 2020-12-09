@@ -5,7 +5,7 @@ var fs=require("fs");
 
 
 //server configuration
-app.use(express.static(path.join(__dirname,'public')));
+app.use(express.static(path.join(__dirname,'sk')));
 
  app.get('/', function (req, res) {
    res.sendFile(path.join(___dirname + '/index.html'));
